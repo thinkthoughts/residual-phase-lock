@@ -1,0 +1,37 @@
+\section{Introduction}
+
+Modern sequence models, particularly transformer architectures, achieve high performance on a wide range of tasks through attention-based representations. However, recent work has identified a fundamental limitation: such models operate on sequences rather than intrinsic structure, and therefore do not enforce global topological consistency. As a result, outputs may be locally accurate while remaining globally invalid.
+
+This limitation is highlighted in \textit{The Topological Trouble With Transformers} (arXiv:2604.17121), which demonstrates that sequence-based architectures can fail to represent structural constraints inherent to the underlying problem. This suggests that the issue is not merely one of optimization or data, but of missing mechanisms for enforcing structure.
+
+In parallel, residual analysis in number-theoretic systems provides an independent perspective on the same phenomenon. In particular, the \texttt{zeta-constraint-lab} repository shows that even when local statistics match expected distributions (e.g., random matrix behavior), residuals exhibit persistent, non-random structure. These residuals are not noise; rather, they encode information about structure not captured by the model.
+
+This leads to a unifying observation:
+
+\begin{equation}
+\text{local fit} \neq \text{global validity}.
+\end{equation}
+
+When structure is not explicitly enforced, it reappears in the residual. In sequence models, this manifests as inconsistency or hallucination; in number-theoretic systems, it appears as structured deviations from statistical models.
+
+We propose a minimal mechanism to address this gap: \textit{residual phase-lock}. The key idea is to treat residuals as signals rather than errors, and to use them to enforce alignment between model outputs and underlying structure. This mechanism can be summarized as:
+
+\begin{equation}
+\text{residual} \rightarrow \text{detect misalignment}, \quad
+\text{phase-lock} \rightarrow \text{enforce alignment}.
+\end{equation}
+
+Within the broader Triplet Phase Lock (TPL) framework, this corresponds to the $\Pi^2$ stage, where systems transition from fitting to enforcement. The full framework can be described as:
+
+\begin{itemize}
+\item $\Pi^0, \Pi^1$: expansion and extension (model fitting),
+\item $\Pi^2$: residual phase-lock (constraint enforcement),
+\item $\Pi^3$: stable synthesis.
+\end{itemize}
+
+The contribution of this work is to isolate and implement the $\Pi^2$ mechanism in a minimal, general form. We demonstrate that residual phase-lock applies across domains, including machine learning, number theory, and physical systems, providing a unified approach to enforcing structure beyond local statistical fit.
+
+\paragraph{Key Insight.}
+\begin{quote}
+Residuals are not noise. Residuals reveal structure. Phase-lock enforces it.
+\end{quote}
