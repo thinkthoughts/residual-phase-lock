@@ -1,0 +1,11 @@
+{
+  "baseline_rmse": 0.7172581911543362,
+  "baseline_r2": 0.9034521753333453,
+  "fitted_slope": 0.7585406979952112,
+  "fitted_intercept": 1.7204488076273812,
+  "residual_hidden_structure_correlation": 0.9238373194298457,
+  "residual_structure_score": 0.831504496525983,
+  "dominant_frequency_1": 0.3992,
+  "dominant_frequency_2": 0.998,
+  "dominant_frequency_3": 0.8982
+}
