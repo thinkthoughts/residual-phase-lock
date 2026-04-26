@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Data / outputs (optional — uncomment if needed)
+# data/
+# outputs/
+# *.csv
+# *.npy
+
+# Figures (optional if auto-generated)
+# figures/*.png
+# figures/*.pdf
+
+# Colab
+/content/
