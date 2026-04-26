@@ -1,0 +1,7 @@
+!zip -r rabi_outputs.zip figures results
+!zip -r NAME_outputs.zip figures results
+
+//
+
+from google.colab import files
+files.download("NAME_outputs.zip")
