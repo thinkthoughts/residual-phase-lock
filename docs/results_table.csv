@@ -1,0 +1,50 @@
+notebook,title,metric,value
+01,Residuals Are Not Noise,baseline_rmse,0.7172581911543362
+01,Residuals Are Not Noise,baseline_r2,0.9034521753333453
+01,Residuals Are Not Noise,fitted_slope,0.7585406979952112
+01,Residuals Are Not Noise,fitted_intercept,1.7204488076273812
+01,Residuals Are Not Noise,residual_hidden_structure_correlation,0.9238373194298457
+01,Residuals Are Not Noise,residual_structure_score,0.831504496525983
+01,Residuals Are Not Noise,dominant_frequency_1,0.3992
+01,Residuals Are Not Noise,dominant_frequency_2,0.998
+01,Residuals Are Not Noise,dominant_frequency_3,0.8982
+02,Topology Drift Demo,train_accuracy,0.608
+02,Topology Drift Demo,test_accuracy,0.5044
+02,Topology Drift Demo,train_drift_rate,0.392
+02,Topology Drift Demo,test_drift_rate,0.4956
+02,Topology Drift Demo,generalization_gap,0.10360000000000003
+03,Phase-Lock Correction Loop,baseline_accuracy,0.497
+03,Phase-Lock Correction Loop,baseline_drift_rate,0.503
+03,Phase-Lock Correction Loop,corrected_accuracy,1.0
+03,Phase-Lock Correction Loop,corrected_drift_rate,0.0
+03,Phase-Lock Correction Loop,drift_reduction,0.503
+03,Phase-Lock Correction Loop,relative_drift_reduction,1.0
+03,Phase-Lock Correction Loop,baseline_coherence_score,0.497
+03,Phase-Lock Correction Loop,corrected_coherence_score,1.0
+04,Learned Residual Correction,baseline_train_rmse,0.5853263838801949
+04,Learned Residual Correction,corrected_train_rmse,0.2409206229534877
+04,Learned Residual Correction,baseline_test_rmse,1.1993888025790358
+04,Learned Residual Correction,corrected_test_rmse,334.10267342391717
+04,Learned Residual Correction,test_rmse_reduction,-332.9032846213381
+04,Learned Residual Correction,relative_test_rmse_reduction,-277.56077420891285
+04,Learned Residual Correction,baseline_test_r2,-0.3118908402729721
+04,Learned Residual Correction,corrected_test_r2,-101796.6192957317
+04,Learned Residual Correction,residual_corr_train,0.9113643845905111
+04,Learned Residual Correction,residual_corr_test,-0.6237575689514663
+04,Learned Residual Correction,baseline_test_residual_structure_score,0.8854922804296419
+04,Learned Residual Correction,corrected_test_residual_structure_score,0.8393923100783975
+04,Learned Residual Correction,structure_score_reduction,0.04609997035124436
+05,Sequence Topology Drift,train_accuracy,0.8947692307692308
+05,Sequence Topology Drift,test_accuracy,0.9045714285714286
+05,Sequence Topology Drift,train_drift_rate,0.10523076923076922
+05,Sequence Topology Drift,test_drift_rate,0.09542857142857143
+05,Sequence Topology Drift,generalization_gap,-0.00980219780219782
+06,Sequence Phase-Lock Correction,baseline_train_accuracy,0.9095384615384615
+06,Sequence Phase-Lock Correction,baseline_test_accuracy,0.908
+06,Sequence Phase-Lock Correction,baseline_test_drift_rate,0.092
+06,Sequence Phase-Lock Correction,corrected_test_accuracy,1.0
+06,Sequence Phase-Lock Correction,corrected_test_drift_rate,0.0
+06,Sequence Phase-Lock Correction,drift_reduction,0.092
+06,Sequence Phase-Lock Correction,relative_drift_reduction,1.0
+06,Sequence Phase-Lock Correction,baseline_coherence_score,0.908
+06,Sequence Phase-Lock Correction,corrected_coherence_score,1.0
