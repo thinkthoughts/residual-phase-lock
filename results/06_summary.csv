@@ -1,0 +1,10 @@
+metric,value
+baseline_train_accuracy,0.9095384615384615
+baseline_test_accuracy,0.908
+baseline_test_drift_rate,0.092
+corrected_test_accuracy,1.0
+corrected_test_drift_rate,0.0
+drift_reduction,0.092
+relative_drift_reduction,1.0
+baseline_coherence_score,0.908
+corrected_coherence_score,1.0

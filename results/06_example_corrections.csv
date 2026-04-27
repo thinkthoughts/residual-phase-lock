@@ -1,0 +1,13 @@
+sequence,valid,baseline_predicted_valid,corrected_predicted_valid,baseline_residual,corrected_residual,final_balance,min_prefix_balance,source
+(())())()(())()),0,1,0,-1,0,-2,-2,invalid_generated
+()))(())((((()())),0,1,0,-1,0,0,-2,invalid_generated
+(())((())))))))),0,1,0,-1,0,-6,-6,invalid_generated
+()(()())(()((()((),0,1,0,-1,0,4,0,invalid_generated
+())()((()),0,1,0,-1,0,0,-1,invalid_generated
+(((((((())((()))(),0,1,0,-1,0,6,0,invalid_generated
+()))))()(((),0,1,0,-1,0,-2,-4,invalid_generated
+((())((),0,1,0,-1,0,2,0,invalid_generated
+())()((((((()()))()))),0,1,0,-1,0,0,-1,invalid_generated
+())))))),0,1,0,-1,0,-6,-6,invalid_generated
+()))(()((()(()))(),0,1,0,-1,0,0,-2,invalid_generated
+()()()()(()))()(((()))(),0,1,0,-1,0,0,-1,invalid_generated
