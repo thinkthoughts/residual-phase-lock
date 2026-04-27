@@ -34,7 +34,7 @@
 ```text
 residual → learn missing structure
 bounded residual learner → correction
-coherence stabilizes without hard-coded constraint
+coherence stabilizes as structured residual is removed
 unbounded residual chasing can destabilize correction
 ```
 
