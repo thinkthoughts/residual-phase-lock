@@ -1,0 +1,9 @@
+metric,value
+baseline_accuracy,0.497
+baseline_drift_rate,0.503
+corrected_accuracy,1.0
+corrected_drift_rate,0.0
+drift_reduction,0.503
+relative_drift_reduction,1.0
+baseline_coherence_score,0.497
+corrected_coherence_score,1.0

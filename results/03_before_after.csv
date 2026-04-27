@@ -1,0 +1,3 @@
+condition,accuracy,drift_rate,residual_norm,coherence_score
+baseline,0.497,0.503,50.149775672479336,0.497
+phase_lock_corrected,1.0,0.0,0.0,1.0
