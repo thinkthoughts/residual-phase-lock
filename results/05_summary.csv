@@ -1,0 +1,6 @@
+metric,value
+train_accuracy,0.8947692307692308
+test_accuracy,0.9045714285714286
+train_drift_rate,0.10523076923076922
+test_drift_rate,0.09542857142857143
+generalization_gap,-0.00980219780219782
