@@ -1,0 +1,7 @@
+{
+  "train_accuracy": 0.608,
+  "test_accuracy": 0.5044,
+  "train_drift_rate": 0.392,
+  "test_drift_rate": 0.4956,
+  "generalization_gap": 0.10360000000000003
+}
