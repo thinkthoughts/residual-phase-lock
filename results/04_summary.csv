@@ -1,0 +1,14 @@
+metric,value
+baseline_train_rmse,0.5853263838801949
+corrected_train_rmse,0.2409206229534877
+baseline_test_rmse,1.1993888025790358
+corrected_test_rmse,334.10267342391717
+test_rmse_reduction,-332.9032846213381
+relative_test_rmse_reduction,-277.56077420891285
+baseline_test_r2,-0.3118908402729721
+corrected_test_r2,-101796.6192957317
+residual_corr_train,0.9113643845905111
+residual_corr_test,-0.6237575689514663
+baseline_test_residual_structure_score,0.8854922804296419
+corrected_test_residual_structure_score,0.8393923100783975
+structure_score_reduction,0.04609997035124436
