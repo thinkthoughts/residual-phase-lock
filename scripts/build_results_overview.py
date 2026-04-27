@@ -13,6 +13,7 @@ NOTEBOOK_TITLES = {
     "04": "Learned Residual Correction",
     "05": "Sequence Topology Drift",
     "06": "Sequence Phase-Lock Correction",
+    "07": "Partial Phase-Lock",
 }
 
 rows = []
@@ -56,6 +57,7 @@ Residual phase-lock detects structure via residuals and stabilizes coherence aga
 | 04 | Learned residual correction generalizes |
 | 05 | Sequence topology drift appears |
 | 06 | Sequence phase-lock corrects drift |
+| 07 | Phase-lock strength controls drift/coherence |
 """
 
 (DOCS_DIR / "results_overview.md").write_text(overview)
