@@ -1,6 +1,15 @@
-# Results Overview — Residual Phase Lock
+# Results Overview — Residual — Phase Lock Core Result
 
 Residual phase-lock detects structure via residuals and stabilizes coherence against drift.
+
+---
+
+## Summary
+
+- Residuals contain structure (01)
+- Models drift from structure (02, 05)
+- Phase-lock restores coherence (03, 06)
+- Residual learning generalizes correction (04)
 
 ## Results Table
 
