@@ -1,15 +1,6 @@
-# Results Overview — Residual — Phase Lock Core Result
+# Results Overview — Residual Phase Lock
 
 Residual phase-lock detects structure via residuals and stabilizes coherence against drift.
-
----
-
-## Summary
-
-- Residuals contain structure (01)
-- Models drift from structure (02, 05)
-- Phase-lock restores coherence (03, 06)
-- Residual learning generalizes correction (04)
 
 ## Results Table
 
@@ -64,6 +55,17 @@ Residual phase-lock detects structure via residuals and stabilizes coherence aga
 |         06 | Sequence Phase-Lock Correction | relative_drift_reduction                |       1         |
 |         06 | Sequence Phase-Lock Correction | baseline_coherence_score                |       0.908     |
 |         06 | Sequence Phase-Lock Correction | corrected_coherence_score               |       1         |
+|         07 | Notebook 07                    | baseline_accuracy                       |       0.5054    |
+|         07 | Notebook 07                    | baseline_drift_rate                     |       0.4946    |
+|         07 | Notebook 07                    | baseline_coherence_score                |       0.5054    |
+|         07 | Notebook 07                    | mid_strength                            |       0.5       |
+|         07 | Notebook 07                    | mid_strength_accuracy                   |       0.7526    |
+|         07 | Notebook 07                    | mid_strength_drift_rate                 |       0.2474    |
+|         07 | Notebook 07                    | mid_strength_coherence_score            |       0.7526    |
+|         07 | Notebook 07                    | full_strength_accuracy                  |       1         |
+|         07 | Notebook 07                    | full_strength_drift_rate                |       0         |
+|         07 | Notebook 07                    | full_strength_coherence_score           |       1         |
+|         07 | Notebook 07                    | full_relative_drift_reduction           |       1         |
 
 ## Notebook Arc
 

@@ -48,3 +48,14 @@ notebook,title,metric,value
 06,Sequence Phase-Lock Correction,relative_drift_reduction,1.0
 06,Sequence Phase-Lock Correction,baseline_coherence_score,0.908
 06,Sequence Phase-Lock Correction,corrected_coherence_score,1.0
+07,Notebook 07,baseline_accuracy,0.5054
+07,Notebook 07,baseline_drift_rate,0.4946
+07,Notebook 07,baseline_coherence_score,0.5054000000000001
+07,Notebook 07,mid_strength,0.5
+07,Notebook 07,mid_strength_accuracy,0.7526
+07,Notebook 07,mid_strength_drift_rate,0.2474
+07,Notebook 07,mid_strength_coherence_score,0.7525999999999999
+07,Notebook 07,full_strength_accuracy,1.0
+07,Notebook 07,full_strength_drift_rate,0.0
+07,Notebook 07,full_strength_coherence_score,1.0
+07,Notebook 07,full_relative_drift_reduction,1.0
