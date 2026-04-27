@@ -21,19 +21,20 @@ notebook,title,metric,value
 03,Phase-Lock Correction Loop,relative_drift_reduction,1.0
 03,Phase-Lock Correction Loop,baseline_coherence_score,0.497
 03,Phase-Lock Correction Loop,corrected_coherence_score,1.0
-04,Learned Residual Correction,baseline_train_rmse,0.5853263838801949
-04,Learned Residual Correction,corrected_train_rmse,0.2409206229534877
-04,Learned Residual Correction,baseline_test_rmse,1.1993888025790358
-04,Learned Residual Correction,corrected_test_rmse,334.10267342391717
-04,Learned Residual Correction,test_rmse_reduction,-332.9032846213381
-04,Learned Residual Correction,relative_test_rmse_reduction,-277.56077420891285
-04,Learned Residual Correction,baseline_test_r2,-0.3118908402729721
-04,Learned Residual Correction,corrected_test_r2,-101796.6192957317
-04,Learned Residual Correction,residual_corr_train,0.9113643845905111
-04,Learned Residual Correction,residual_corr_test,-0.6237575689514663
-04,Learned Residual Correction,baseline_test_residual_structure_score,0.8854922804296419
-04,Learned Residual Correction,corrected_test_residual_structure_score,0.8393923100783975
-04,Learned Residual Correction,structure_score_reduction,0.04609997035124436
+04,Learned Residual Correction,baseline_train_rmse,0.5910266144854163
+04,Learned Residual Correction,corrected_train_rmse,0.1964150863770009
+04,Learned Residual Correction,baseline_test_rmse,0.5666377202162963
+04,Learned Residual Correction,corrected_test_rmse,0.17958434336848092
+04,Learned Residual Correction,test_rmse_reduction,0.3870533768478154
+04,Learned Residual Correction,relative_test_rmse_reduction,0.6830702634834649
+04,Learned Residual Correction,baseline_test_r2,0.9360755422951338
+04,Learned Residual Correction,corrected_test_r2,0.9935791425000222
+04,Learned Residual Correction,residual_corr_train,0.9431690566805778
+04,Learned Residual Correction,residual_corr_test,0.9489731616982778
+04,Learned Residual Correction,baseline_test_residual_structure_score,0.7979061600027401
+04,Learned Residual Correction,corrected_test_residual_structure_score,0.1797388743145541
+04,Learned Residual Correction,structure_score_reduction,0.6181672856881859
+04,Learned Residual Correction,unstable_polynomial_test_rmse,0.31121503662177097
 05,Sequence Topology Drift,train_accuracy,0.8947692307692308
 05,Sequence Topology Drift,test_accuracy,0.9045714285714286
 05,Sequence Topology Drift,train_drift_rate,0.10523076923076922
@@ -48,14 +49,14 @@ notebook,title,metric,value
 06,Sequence Phase-Lock Correction,relative_drift_reduction,1.0
 06,Sequence Phase-Lock Correction,baseline_coherence_score,0.908
 06,Sequence Phase-Lock Correction,corrected_coherence_score,1.0
-07,Notebook 07,baseline_accuracy,0.5054
-07,Notebook 07,baseline_drift_rate,0.4946
-07,Notebook 07,baseline_coherence_score,0.5054000000000001
-07,Notebook 07,mid_strength,0.5
-07,Notebook 07,mid_strength_accuracy,0.7526
-07,Notebook 07,mid_strength_drift_rate,0.2474
-07,Notebook 07,mid_strength_coherence_score,0.7525999999999999
-07,Notebook 07,full_strength_accuracy,1.0
-07,Notebook 07,full_strength_drift_rate,0.0
-07,Notebook 07,full_strength_coherence_score,1.0
-07,Notebook 07,full_relative_drift_reduction,1.0
+07,Partial Phase-Lock,baseline_accuracy,0.5054
+07,Partial Phase-Lock,baseline_drift_rate,0.4946
+07,Partial Phase-Lock,baseline_coherence_score,0.5054000000000001
+07,Partial Phase-Lock,mid_strength,0.5
+07,Partial Phase-Lock,mid_strength_accuracy,0.7526
+07,Partial Phase-Lock,mid_strength_drift_rate,0.2474
+07,Partial Phase-Lock,mid_strength_coherence_score,0.7525999999999999
+07,Partial Phase-Lock,full_strength_accuracy,1.0
+07,Partial Phase-Lock,full_strength_drift_rate,0.0
+07,Partial Phase-Lock,full_strength_coherence_score,1.0
+07,Partial Phase-Lock,full_relative_drift_reduction,1.0
