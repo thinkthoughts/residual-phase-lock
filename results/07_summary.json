@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": 0.5054,
+  "baseline_drift_rate": 0.4946,
+  "baseline_coherence_score": 0.5054000000000001,
+  "mid_strength": 0.5,
+  "mid_strength_accuracy": 0.7526,
+  "mid_strength_drift_rate": 0.2474,
+  "mid_strength_coherence_score": 0.7525999999999999,
+  "full_strength_accuracy": 1.0,
+  "full_strength_drift_rate": 0.0,
+  "full_strength_coherence_score": 1.0,
+  "full_relative_drift_reduction": 1.0
+}
