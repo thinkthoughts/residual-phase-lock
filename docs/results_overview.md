@@ -16,14 +16,14 @@ Residual phase-lock provides a general mechanism:
 
 Residual ≠ noise  
 Drift ≠ random error  
-Phase-lock = structure-aware correction
+Phase-lock = structure-aware correction that restores coherence
 
 ## Key Metrics
 
 - Residual correlation (04): **0.95** → residual is structured
 - RMSE reduction (04): **68.3%** → learned correction generalizes
 - Residual structure score (04): **0.80 → 0.18** → structured residual is removed
-- Corrected drift (03): **0.000** → phase-lock restores coherence
+- Corrected drift (03): **0.000** → full coherence restoration
 - Corrected drift (06): **0.000** → phase-lock restores coherence
 - Partial phase-lock (07): drift falls from **0.247** at half strength to **0.000** at full strength
 
