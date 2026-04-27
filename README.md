@@ -147,3 +147,7 @@ detect structure → correct drift → restore coherence
 ## License
 
 MIT
+
+<p align="center">
+  <img src="docs/banner_residual_phase_lock_light.png" width="100%" />
+</p>
