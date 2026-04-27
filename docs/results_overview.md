@@ -2,6 +2,29 @@
 
 Residual phase-lock detects structure via residuals and stabilizes coherence against drift.
 
+## Core Result
+
+Residual phase-lock provides a general mechanism:
+
+- residuals encode missing structure (01)
+- models drift from that structure (02, 05)
+- phase-lock correction restores coherence (03, 06)
+- residual structure can be learned and generalized (04)
+- correction strength provides continuous control (07)
+
+## Interpretation
+
+Residual ≠ noise  
+Drift ≠ random error  
+Phase-lock = structure-aware correction
+
+## Key Metrics
+
+- Residual correlation (04): ~0.95 → residual is structured
+- RMSE reduction (04): ~68% → learned correction generalizes
+- Drift → 0 with phase-lock (03, 06)
+- Partial phase-lock (07): smooth drift → coherence transition
+  
 ## Results Table
 
 |   notebook | title                          | metric                                  |      value |
@@ -75,7 +98,7 @@ Residual phase-lock detects structure via residuals and stabilizes coherence aga
 | 01 | Residuals reveal structure |
 | 02 | Topology drift appears |
 | 03 | Phase-lock corrects known drift |
-| 04 | Learned residual correction generalizes |
+| 04 | Learned bounded residual correction generalizes |
 | 05 | Sequence topology drift appears |
 | 06 | Sequence phase-lock corrects drift |
 | 07 | Phase-lock strength controls drift/coherence |
