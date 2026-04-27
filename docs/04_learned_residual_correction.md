@@ -4,12 +4,13 @@
 
 | Metric | Value |
 |--------|------:|
-| Baseline test RMSE | 1.199 |
-| Corrected test RMSE | 334.103 |
-| Relative test RMSE reduction | -277.561 |
-| Residual correlation test | -0.624 |
-| Baseline residual structure score | 0.885 |
-| Corrected residual structure score | 0.839 |
+| Baseline test RMSE | 0.567 |
+| Corrected test RMSE | 0.180 |
+| Relative test RMSE reduction | 0.683 |
+| Residual correlation test | 0.949 |
+| Baseline residual structure score | 0.798 |
+| Corrected residual structure score | 0.180 |
+| Unstable polynomial test RMSE | 0.311 |
 
 ## Figures
 
@@ -25,12 +26,15 @@
 
 ![residual_spectrum_before_after](../figures/04_residual_spectrum_before_after.png)
 
+![guardrail_comparison](../figures/04_guardrail_comparison.png)
+
 
 ## Interpretation
 
 ```text
 residual → learn missing structure
-learned residual → correction
+bounded residual learner → correction
 coherence stabilizes without hard-coded constraint
+unbounded residual chasing can destabilize correction
 ```
 
