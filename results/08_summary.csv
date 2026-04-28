@@ -1,0 +1,13 @@
+metric,value
+first_horizon,4.0
+last_horizon,128.0
+baseline_accuracy_first,1.0
+baseline_accuracy_last,0.4613333333333333
+baseline_accuracy_change,-0.5386666666666666
+baseline_drift_first,0.0
+baseline_drift_last,0.5386666666666666
+baseline_drift_change,0.5386666666666666
+partial_drift_last,0.2693333333333333
+corrected_drift_last,0.0
+corrected_coherence_last,1.0
+full_relative_drift_reduction_last,1.0
