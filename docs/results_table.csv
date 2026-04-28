@@ -60,3 +60,15 @@ notebook,title,metric,value
 07,Partial Phase-Lock,full_strength_drift_rate,0.0
 07,Partial Phase-Lock,full_strength_coherence_score,1.0
 07,Partial Phase-Lock,full_relative_drift_reduction,1.0
+08,Long-Horizon State Tracking,first_horizon,4.0
+08,Long-Horizon State Tracking,last_horizon,128.0
+08,Long-Horizon State Tracking,baseline_accuracy_first,1.0
+08,Long-Horizon State Tracking,baseline_accuracy_last,0.4613333333333333
+08,Long-Horizon State Tracking,baseline_accuracy_change,-0.5386666666666666
+08,Long-Horizon State Tracking,baseline_drift_first,0.0
+08,Long-Horizon State Tracking,baseline_drift_last,0.5386666666666666
+08,Long-Horizon State Tracking,baseline_drift_change,0.5386666666666666
+08,Long-Horizon State Tracking,partial_drift_last,0.2693333333333333
+08,Long-Horizon State Tracking,corrected_drift_last,0.0
+08,Long-Horizon State Tracking,corrected_coherence_last,1.0
+08,Long-Horizon State Tracking,full_relative_drift_reduction_last,1.0
